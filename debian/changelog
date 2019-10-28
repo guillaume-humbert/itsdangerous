@@ -1,0 +1,5 @@
+itsdangerous (1.1.0-1~ubuntu1) bionic; urgency=low
+
+  * Initial release.
+
+ -- Guillaume J Humbert <guillaume.j.humbert@pm.me>  Mon, 28 Oct 2019 17:06:28 +0800

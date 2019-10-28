@@ -1,0 +1,29 @@
+Source: itsdangerous
+Section: python
+Priority: optional
+Maintainer: Guillaume J Humbert <guillaume.j.humbert@pm.me>
+Build-Depends: debhelper (>= 10~),
+ dh-python, python3-all, python-all,
+ python3-setuptools, python-setuptools
+Standards-Version: 4.1.4
+Homepage: https://palletsprojects.com/p/itsdangerous/
+X-Python-Version: >= 2.7
+X-Python3-Version: >= 3.6
+
+Package: python3-itsdangerous
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: Various helpers to pass data to untrusted environments and back.
+ Various helpers to pass data to untrusted environments and to get it back safe
+ and sound. Data is cryptographically signed to ensure that a token has not
+ been tampered with.
+
+Package: python-itsdangerous
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Various helpers to pass data to untrusted environments and back.
+ Various helpers to pass data to untrusted environments and to get it back safe
+ and sound. Data is cryptographically signed to ensure that a token has not
+ been tampered with.
